@@ -14,8 +14,10 @@ profile: default
      */
      
    "/feign/client2/save"          -- Stores User Data into DB  
+
         Ex: User Data  //Where projectName property will be taken from cloud
-            {"username": "user1"
+            {
+            "username": "user1"
              }
 
    "/feign/client2/all"           --To fetch all user data from DB
