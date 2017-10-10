@@ -9,13 +9,13 @@ profile: default
 
     
  /**
-     * Mapping URLs to get User data from Client2 & DB using @Feignclient from Client1
-     * @return
+     * Mapping URLs to get User data from Client2 & DB using @Feignclient in Client1 service
+     *
      */
      
    "/feign/client2/save"          -- Stores User Data into DB  
 
-        Ex: User Data  //Where projectName property will be taken from cloud
+        Ex: User Data  //Where "projectName" property will be taken from cloud prop file-"test-client2.yml"
             {
             "username": "user1"
              }
