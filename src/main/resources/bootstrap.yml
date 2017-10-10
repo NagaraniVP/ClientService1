@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test-client1
+  cloud:
+      config:
+          uri: http://localhost:8889
+
+  profiles:
+    active: default
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+
+server:
+  port: 8071
+
